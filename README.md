@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Project - Mô tả chức năng
+# 🛒 E-Commerce Project 
 
 ## 1. 📂 Database
 - **Phân tích & thiết kế cơ sở dữ liệu**
