@@ -1,0 +1,33 @@
+.categories__item {
+    position: relative; /* Thiết lập vị trí tương đối */
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.categories__text {
+    position: absolute;
+    top: 50%; /* Di chuyển văn bản xuống dưới 50% chiều cao của hình ảnh */
+    left: 20px; /* Đặt văn bản ở mép trái của tấm hình */
+    transform: translateY(-50%);
+    /* Dịch chuyển văn bản lên trên để nằm chính giữa */
+    padding: 10px;
+    color: #fff;
+    font-family: cursive;
+    text-align: left;
+    max-width: calc(100% - 40px);
+}
+
+.categories__text h1 {
+    font-size: 24px; /* Cỡ chữ cho tiêu đề */
+    margin-bottom: 5px; /* Khoảng cách dưới cho tiêu đề */
+}
+
+.categories__text h4, .categories__text a {
+    color: #000; /* Chỉ định màu đen cho thẻ h4 và thẻ a */
+}
+
+.categories__text p {
+    font-size: 14px; /* Cỡ chữ cho đoạn văn */
+    margin-bottom: 10px; /* Khoảng cách dưới cho đoạn văn */
+    color: #666; /* Chỉ định màu xám cho thẻ p */
+}

@@ -1,0 +1,70 @@
+.footer {
+    background-color: #f4f4f4; /* Màu nền */
+    color: #333; /* Màu chữ */
+    padding: 30px 0; /* Khoảng cách giữa nội dung và lề trên dưới */
+}
+
+.footer__about, .footer__widget, .footer__newslatter {
+    margin-bottom: 30px; /* Khoảng cách giữa các phần nội dung */
+}
+
+.footer a {
+    color: #555; /* Màu chữ của các liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+}
+
+.footer a:hover {
+    color: #000; /* Màu chữ khi di chuột qua liên kết */
+}
+
+.footer h6 {
+    font-size: 18px; /* Cỡ chữ cho tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách dưới cho tiêu đề */
+}
+
+.footer ul {
+    list-style: none; /* Loại bỏ dấu chấm của danh sách */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách */
+}
+
+.footer ul li {
+    margin-bottom: 10px; /* Khoảng cách giữa các mục trong danh sách */
+}
+
+.footer p {
+    font-family: cursive; /* Chọn kiểu chữ uyển chuyển */
+    font-size: 24px; /* Tăng kích thước chữ */
+}
+
+.footer__social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #e1e1e1;
+    font-size: 15px;
+    color: #111111;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
+
+.footer__newslatter .site-btn, .email {
+    border-radius: 20px; /* Bo tròn nút */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Khoảng cách giữa nút và phần dưới của footer */
+    overflow: visible;
+}
+.footer__newslatter .site-btn {
+    background-color: red;
+}
+
+.footer__social {
+    margin-top: 10px;
+    /* Khoảng cách giữa nút và biểu tượng social phía trên */
+}
+
+button, input {
+    overflow: visible;
+}

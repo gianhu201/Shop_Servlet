@@ -1,0 +1,112 @@
+/* Product Card Component Styles */
+
+/* Main product item container */
+.product__item {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.product__item:hover {
+    transform: translateY(-5px);
+}
+
+/* Card styling */
+.product__item .card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 100%;
+    border: none;
+}
+
+/* Image styling */
+.product__item .card-img-top {
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.product__item .card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Card body styling */
+.product__item .card-body {
+    padding: 1.25rem;
+}
+
+/* Product title styling */
+.product__item .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Product description styling */
+.product__item .card-text {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 12px;
+}
+
+/* Price styling */
+.product__item h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+/* Button container */
+.product__item .d-flex {
+    gap: 10px;
+}
+
+/* Button styling */
+.product__item .btn-primary {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #3d5a80;
+    border-color: #3d5a80;
+    transition: all 0.3s ease;
+}
+
+.product__item .btn-primary:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+/* "Mua ngay" button */
+.product__item .btn-primary:first-child {
+    flex-grow: 2;
+}
+
+/* "Yêu thích" button */
+.product__item .btn-primary:last-child {
+    background-color: #e63946;
+    border-color: #e63946;
+}
+
+.product__item .btn-primary:last-child:hover {
+    background-color: #c1121f;
+    border-color: #c1121f;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .product__item .card {
+        width: 100% !important;
+    }
+}
+
+/* For different product categories */
+.mix.women .card-title {
+    border-left: 3px solid #ff8080;
+    padding-left: 8px;
+}
+
+.mix.men .card-title {
+    border-left: 3px solid #80b3ff;
+    padding-left: 8px;
+}
